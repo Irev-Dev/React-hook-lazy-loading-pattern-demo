@@ -7,8 +7,7 @@ const App: React.FC = () => {
   const [tab, setTab] = useState<'sweet' | 'rad'>('sweet')
   return (
     <Store.Provider><>
-      <h1 className='text-2xl text-center m-4'>React hook lazy loading pattern</h1>
-      <div className="App mx-auto w-4/5 max-w-md">
+      <div className="App mx-auto mt-4 w-4/5 max-w-md">
         <div className='border-black border-2'>
           <div className="flex flex-1">
             <button 
